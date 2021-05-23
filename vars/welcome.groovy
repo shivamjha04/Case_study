@@ -4,5 +4,5 @@ def call(){
                     
 //                     echo "CSV file path is : ${inputCSVPath}"
 //                     echo "CSV content is: ${csvContent}"
-    echo "Hello Wordl"
+    echo "Hello World"
 }
