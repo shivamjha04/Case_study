@@ -5,5 +5,5 @@ def call(){
     }
     catch(err){
         emailext body: "${err}", subject:'Jenkins file', to:'shivamjha04@gmail.com'
-     
+    }    
 }
