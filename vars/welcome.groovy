@@ -1,6 +1,6 @@
 def call(){
     try{
-    echo "Hello World"
+    echos "Hello World"
     emailext attachLog: true, body: 'Hi,', subject: 'Jenkins report', to: 'shivamjha04@gmail.com'
     }
     catch(err){
